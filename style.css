@@ -1,0 +1,194 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* styling body */
+body {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   line-height: 1.6
+}
+
+/* styling header */
+header {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+
+/* styling nav */
+header nav {
+   display: flex;
+   justify-content: center;
+   color: #ffffff;
+   background-color: #000000;
+   padding: 0;
+   text-align: center;
+   flex-wrap: wrap;
+   margin: 0;
+}
+
+header nav ul{
+   list-style: none;
+   display: flex;
+}
+
+header nav ul li {
+   display: inline;
+   margin-right: 20px;
+   font-size: 14px; 
+   font-weight: 100;
+   margin: 0px;
+   margin-top: -11px;
+   color: white;
+}
+
+header nav ul li:last-child {
+   margin-right: 0;
+}
+
+/* styling header content */
+header h3, ul, li, p{
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   font-weight: 100;
+   font-size: 15px;
+}
+header h3, ul, li{
+   display: flex;
+   font-size: 15px;
+   margin-top: 25px;
+}
+header h3 ul p {
+   justify-content: center;
+   font-size: 35px;
+   margin-left: 300px;
+   text-align: center;
+}
+
+header h3  {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-bottom: 1px solid #dbdbdb; /* Warna dan ketebalan garis dapat disesuaikan */
+
+}
+
+/* header h3, ul, li, img{
+   margin-left: px;
+   height: 20px;
+   width: px;
+   display: flex;
+} */
+
+/* styling img */
+img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 0px;
+}
+
+/* styling main content */
+div ul li {
+   margin-left: 20px;
+   padding: 0 -10px;
+   margin-top: -5px;
+   margin-bottom: 10px;
+}
+
+/* styling section */
+section{
+   text-align: center;
+}
+section h4 {
+   color: grey;
+   font-weight: 100;
+   justify-content: center;
+   text-align: center;
+   font-size: 15px;
+   margin-bottom: 5px;
+}
+section h3{
+   justify-content: center;
+   text-align: center;
+   font-size: 20px;
+   margin-bottom: 10px;
+   font-weight: 10;
+}
+
+section button {
+   color: black;
+   background-color: white;
+   display: block;
+   margin: auto;
+   margin-bottom: 15px;
+   border-radius: 40px;
+   border: 1;
+   border-width: 1px;
+   padding: 10px;
+   white-space: nowrap;
+}
+
+/* styling footer */
+footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: 20px 0;
+   margin-top: 50px; /* Adjust the margin to position the footer */
+}
+
+footer div {
+   display: flex;
+}
+
+footer div ul {
+   display: absolute;
+   flex-direction: column;
+   justify-content: flex-start;
+   list-style-type: none; /* Menghilangkan bullet point */
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   margin-right: 20px;
+   margin-bottom: 50px;
+   margin-left: 50px;
+   font-size: large;
+}
+ 
+footer div ul:first-child {
+   text-align: left;
+}
+ 
+footer ul:last-child {
+   text-align: right;
+}
+
+footer div p {
+   display: flex;
+   margin-left: 10px;
+   margin-top: 10px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+footer div p:first-child {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: -20px;
+   left: 50%;
+   bottom: 10px;
+   transform: translateX(-50%); /* Centering trick */
+}
+footer div p{
+   position: relative;
+   top: 10px;
+   left: 25%;
+   bottom: 100px;
+}
